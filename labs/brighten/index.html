@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=.5">
+    <link rel="stylesheet" href="/stylesheets/poems.css">
+    <link href="/image/favicon.png" rel="shortcut icon" type="image/png">
+
+    <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+    <!-- jQuery library + JKit -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+    <!-- <script src="stylesheets/home.css"></script> -->
+
+</head>
+
+<body>
+
+
+    <div id="home">
+
+        <h3> here is a random, quite simply terrible, musical pun: </h3>
+
+        <div id="joke" style="text-align: center; color: grey"></div>
+
+        <script>
+            var words = ['(you can\'t handel the truth)', 'how clef-er', 'i\'ve been told i\'m pretty sharp', 'i\'ve had to scale back', 'let\'s leave it on a high note', 'are you calling me a lyre?', 'i didn\'t mean to harp on about it', 'pitch us an idea', 'don\'t use that tone with me'],
+            div = document.getElementById('joke');
+            div.innerHTML += ' ' + words[Math.floor(Math.random() * words.length)];
+        </script>
+
+        <h5 style="color: grey; text-align: center"> reload for a new one! </h5>
+
+    </div>
+
+</body>

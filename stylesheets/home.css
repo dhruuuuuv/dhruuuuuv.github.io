@@ -1,0 +1,105 @@
+html {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    color: #fff;
+    font: normal normal 20px/1 'Gotham A', 'Gotham B', 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+    background-color: #000;
+    font-size: 4vw;
+    line-height: 0.5;
+}
+
+#home {
+    padding: 4vw;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #0000FF;
+    -webkit-transition: color 1s;
+    -moz-transition:    color 1s;
+    -ms-transition:     color 1s;
+    -o-transition:      color 1s;
+    transition:         color 1s;
+}
+
+h1 {
+    -webkit-animation: color-change 10s infinite;
+    -moz-animation: color-change 10s infinite;
+    -o-animation: color-change 10s infinite;
+    -ms-animation: color-change 10s infinite;
+    animation: color-change 10s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: red; }
+    33% { color: #00ffc0; }
+    66% { color: yellow; }
+    100% { color: red; }
+}
+@-moz-keyframes color-change {
+    0% { color: red; }
+    33% { color: #00ffc0; }
+    66% { color: yellow; }
+    100% { color: red; }
+}
+@-ms-keyframes color-change {
+    0% { color: red; }
+    33% { color: #00ffc0; }
+    66% { color: yellow; }
+    100% { color: red; }
+}
+@-o-keyframes color-change {
+    0% { color: red; }
+    33% { color: #00ffc0; }
+    66% { color: yellow; }
+    100% { color: red; }
+}
+@keyframes color-change {
+    0% { color: red; }
+    33% { color: #00ffc0; }
+    66% { color: yellow; }
+    100% { color: red; }
+}
+
+h1:hover {
+    color: #fff
+}
+
+p {
+    line-height: 1.6em;
+    margin-bottom: 1.2em;
+}
+
+table {
+  width: 100%;
+  font-size: 2.2vw;
+}
+
+tr {
+  background: #111;
+}
+
+th, td {
+  padding: 2vw;
+}
+
+th {
+  text-align: left;
+}
+
+td {
+  color: #ccc;
+}
+
+.back {
+  padding: 2vw;
+  text-align: center;
+}
