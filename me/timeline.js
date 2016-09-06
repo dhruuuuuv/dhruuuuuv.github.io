@@ -22,7 +22,7 @@ function drawChart() {
   dataTable.addRows([
     [ 'Housing', '18 Dunster', 					new Date(1995, 3, 21), 	 new Date(2005, 0, 08) ],
     [ 'Housing', '21 Queens Court',             new Date(2005, 0, 08),  new Date(2006, 11, 30) ],
-    [ 'Housing', '36 Metchley Lane', 		    new Date(2006, 11, 30),  new Date(2014, 08, 22) ],
+    [ 'Housing', '36 Metchley Lane', 		    new Date(2006, 11, 30),  new Date(2018, 05, 15) ],
     [ 'Housing', '21 University Hall', 	        new Date(2014, 08, 22),  new Date(2015, 06, 15) ],
     [ 'Housing', '34 Elton Road ', 			    new Date(2015, 06, 15),  new Date(2016, 06, 15) ],
     [ 'Housing', '6 Woodfield Road', 	        new Date(2016, 06, 15),  new Date(2016, 07, 21) ],
