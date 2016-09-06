@@ -12,7 +12,7 @@ function drawChart() {
 
   var year = 1995;
 
-  for (var i = 0; i < 22; i++) {
+  for (var i = 0; i < 23; i++) {
       dataTable.addRow(
           [ 'Age', i.toString(),		new Date(year, 03, 21), 	 new Date(year + 1, 03, 21) ]
       );
@@ -20,14 +20,13 @@ function drawChart() {
   }
 
   dataTable.addRows([
-    [ 'Housing', '18 Dunster', 					new Date(1995, 3, 21), 	 new Date(2005, 0, 08) ],
-    [ 'Housing', '21 Queens Court',             new Date(2005, 0, 08),  new Date(2006, 11, 30) ],
-    [ 'Housing', '36 Metchley Lane', 		    new Date(2006, 11, 30),  new Date(2018, 05, 15) ],
-    [ 'Housing', '21 University Hall', 	        new Date(2014, 08, 22),  new Date(2015, 06, 15) ],
-    [ 'Housing', '34 Elton Road ', 			    new Date(2015, 06, 15),  new Date(2016, 06, 15) ],
-    [ 'Housing', '6 Woodfield Road', 	        new Date(2016, 06, 15),  new Date(2016, 07, 21) ],
-    [ 'Housing', '11F-6-2 Signalhuset Kollegiet',
-                                                new Date(2016, 07, 22),  new Date(2017, 06, 15) ],
+    [ 'Housing', 'Tamworth, UK', 			    new Date(1995, 3, 21), 	 new Date(2005, 0, 08) ],
+    [ 'Housing', 'Birmingham, UK',              new Date(2005, 0, 08),  new Date(2006, 11, 30) ],
+    [ 'Housing', 'Birmingham, UK', 		        new Date(2006, 11, 30),  new Date(2018, 05, 15) ],
+    [ 'Housing', 'Bristol, UK', 	            new Date(2014, 08, 22),  new Date(2015, 06, 15) ],
+    [ 'Housing', 'Bristol, UK ', 			    new Date(2015, 06, 15),  new Date(2016, 06, 15) ],
+    [ 'Housing', 'Bristol, UK', 	            new Date(2016, 06, 15),  new Date(2016, 07, 21) ],
+    [ 'Housing', 'Copenhagen, DK',              new Date(2016, 07, 22),  new Date(2017, 06, 15) ],
     ]);
 
 
