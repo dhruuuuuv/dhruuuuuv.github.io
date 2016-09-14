@@ -59,6 +59,7 @@ function drawChart() {
       [ 'Travel', 'America (LA, SF, DC, NY, Virginia, Philidelphia)', new Date(2015, 06, 10),  new Date(2015, 07, 10) ],
       [ 'Travel', 'Eastern Europe',    new Date(2015, 07, 13),  new Date(2015, 07, 27) ],
       [ 'Travel', 'Italy (Florence, Naples, Rome)',    new Date(2016, 06, 16),  new Date(2016, 06, 23) ],
+      [ 'Travel', 'Budapest',    new Date(2016, 08, 10),  new Date(2016, 06, 12) ],
       ]);
 
   dataTable.addRows([
