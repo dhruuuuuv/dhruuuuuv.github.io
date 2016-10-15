@@ -4,32 +4,20 @@ html {
 }
 
 body {
-    color: #fff;
+    color: #000;
     font: normal normal 20px/1 'Gotham A', 'Gotham B', 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
-    background-color: #000;
-    font-size: 4vw;
+    background-color: #FFF;
+    /*font-size: 4vw; */
+    line-height: 0.5;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3.5vw;
 }
 
 #home {
     padding: 4vw;
-}
-
-h1 {
-  color: #00ffc0;
-    -webkit-transition: color 1s;
-    -moz-transition:    color 1s;
-    -ms-transition:     color 1s;
-    -o-transition:      color 1s;
-    transition:         color 1s;
-}
-
-h1:hover {
-    color: #fff
-}
-
-p {
-    line-height: 1.6em;
-    margin-bottom: 1.2em;
 }
 
 a {
@@ -39,12 +27,60 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: #0000FF;
+    color: darkred;
     -webkit-transition: color 1s;
     -moz-transition:    color 1s;
     -ms-transition:     color 1s;
     -o-transition:      color 1s;
     transition:         color 1s;
+}
+
+.name {
+    font-family: 'Permanent Marker', cursive;
+    /*-webkit-animation: color-change 10s infinite;
+    -moz-animation: color-change 10s infinite;
+    -o-animation: color-change 10s infinite;
+    -ms-animation: color-change 10s infinite;
+    animation: color-change 10s infinite;*/
+    color: red;
+    font-size: 4vw;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+/*@-webkit-keyframes color-change {
+    0% { color: red; }
+    50% { color: #FF4500; }
+    100% { color: red; }
+}
+@-moz-keyframes color-change {
+    0% { color: red; }
+    50% { color: #FF4500; }
+    100% { color: red; }
+}
+@-ms-keyframes color-change {
+    0% { color: red; }
+    50% { color: #FF4500; }
+    100% { color: red; }
+}
+@-o-keyframes color-change {
+    0% { color: red; }
+    50% { color: #FF4500; }
+    100% { color: red; }
+}
+@keyframes color-change {
+    0% { color: red; }
+    50% { color: orangered; }
+    100% { color: red; }
+}*/
+
+.name:hover {
+    color: crimson;
+}
+
+p {
+    line-height: 1.6em;
+    margin-bottom: 1.2em;
 }
 
 table {
@@ -69,6 +105,6 @@ td {
 }
 
 .back {
-  padding: 8vw;
+  padding: 2vw;
   text-align: center;
 }
