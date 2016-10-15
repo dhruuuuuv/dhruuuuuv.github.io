@@ -62,9 +62,9 @@ function drawChart() {
       [ 'Travel', 'Budapest',    new Date(2016, 08, 10),  new Date(2016, 08, 12) ],
       ]);
 
-  dataTable.addRows([
-      [ 'Significant Events', 'X NC', new Date(2005, 03, 14),  new Date(2005, 03, 15) ],
-      ]);
+  // dataTable.addRows([
+  //     [ 'Significant Events', 'X NC', new Date(2005, 03, 14),  new Date(2005, 03, 15) ],
+  //     ]);
 
   chart.draw(dataTable);
 }
