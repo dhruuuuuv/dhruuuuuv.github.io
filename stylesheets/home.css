@@ -8,11 +8,17 @@ body {
     /*font: normal normal 20px/1 'Gotham A', 'Gotham B', 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;*/
     background-color: #FFF;
     font-size: 2vw;
-    line-height: 0.5;
+    /*line-height: 0.5;*/
   font-family: "Open Sans";
 }
 
 h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3.5vw;
+    margin-bottom: 4vw;
+}
+
+.typedelem {
     font-family: 'Permanent Marker', cursive;
     font-size: 3.5vw;
     margin-bottom: 4vw;
@@ -26,7 +32,7 @@ h2 {
 }
 
 #home {
-    padding: 4vw;
+    padding: 2vw;
 }
 
 a {
@@ -53,7 +59,7 @@ a:hover {
     animation: color-change 10s infinite;*/
     color: red;
     font-size: 4vw;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     margin-top: 20px;
 }
 
@@ -88,7 +94,7 @@ a:hover {
 }
 
 p {
-    line-height: 1.6em;
+    /*line-height: 1.6em;*/
     margin-bottom: 1.2em;
 }
 

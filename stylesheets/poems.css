@@ -5,17 +5,24 @@ html {
 
 body {
     color: #000;
-    font: normal normal 20px/1 'Gotham A', 'Gotham B', 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+    /*font: normal normal 20px/1 'Gotham A', 'Gotham B', 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;*/
     background-color: #FFF;
-    /*font-size: 4vw; */
-    line-height: 0.5;
+    font-size: 2vw;
+    /*line-height: 0.5;*/
+  font-family: "Open Sans";
 }
 
 h1 {
     font-family: 'Permanent Marker', cursive;
     font-size: 3.5vw;
     margin-bottom: 4vw;
+}
 
+h2 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2vw;
+    margin-bottom: 4vw;
+    text-align: center;
 }
 
 #home {
@@ -24,13 +31,10 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #000;
-    font-family: 'Permanent Marker', cursive;
-    padding: 20px;
-    font-size: 40px;
+    color: #cc0000;
 }
 
-a:hover {
+a:hover {   
     text-decoration: none;
     color: darkred;
     -webkit-transition: color 1s;
@@ -84,13 +88,17 @@ a:hover {
 }
 
 p {
-    line-height: 1.6em;
-    margin-bottom: 1.2em;
+    /*line-height: 1.6em;*/
+    /*line-height: 250%;*/
+    /*margin-bottom: 1.2em;*/
+    /*padding: 50px;*/
 }
 
 table {
   width: 100%;
-  font-size: 2.2vw;
+  table-layout: fixed;
+  /*word-wrap: break-word;*/
+  /*padding: 30px;*/
   /*font-family:*/
   /*font-family: 'Permanent Marker', cursive;*/
 }
@@ -100,19 +108,29 @@ tr {
 }
 
 th, td {
-  padding: 2vw;
+      font-family: "Open Sans";
 }
 
 th {
   text-align: left;
   font-family: 'Permanent Marker', cursive;
+  font-size: 2.2vw;
+  padding-bottom: 2vw;
+  font-weight: bold;
 }
 
 td {
   /*color: #ccc;*/
+  font-size: 30px;
+  padding-bottom: 2vw;
+  line-height: 150%;
+  vertical-align: top;
 }
 
 .back {
   padding: 2vw;
   text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3vw;
+  color: black;
 }

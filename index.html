@@ -2,14 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width initial-scale=.5">
+    <meta name="viewport" content="width=device-width">
     <link href="/image/favicon.png" rel="shortcut icon" type="image/png">
 
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="/stylesheets/home.css">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
     <!-- jQuery library + JKit -->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="/js/typed.js"></script>
     <!-- Latest compiled JavaScript -->
     <!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
     <!-- <script src="stylesheets/home.css"></script> -->
@@ -18,18 +21,28 @@
 
 <body>
 
-    <div id="home">
+    <script>
+      $(function(){
+          $(".typedelem").typed({
+            strings: ["draw.", "play piano"],
+            typeSpeed: 3
+          });
+      });
+    </script>
 
-      <div class="container">
+    <div id="home" class="container">
+
+
 
           <!-- <div class="row"> -->
-              <div class="name"> <a href="/"> DC </a> </div>
+      <div class="name"> <a href="/"> DC </a> </div>
           <!-- </div> -->
 
 
         <div class="row">
             <div class="col-xs-12 col-md-6">
                 <h1> I'm Dhruv Chauhan. I study Computer Science at Bristol University. In my spare time I like to draw and play piano. </h1>
+                <!-- <div class="typedelem"> </div> -->
             </div>
             <div class="col-xs-12 col-md-6">
                 <h1>
