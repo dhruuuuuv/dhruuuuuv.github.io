@@ -7,14 +7,17 @@ body {
     color: #000;
     /*font: normal normal 20px/1 'Gotham A', 'Gotham B', 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;*/
     background-color: #FFF;
-    font-size: 2vw;
+    font-size: 1.5em;
     /*line-height: 0.5;*/
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
   font-family: "Open Sans";
 }
 
 h1 {
     font-family: 'Permanent Marker', cursive;
-    font-size: 3.5vw;
+    font-size: 3.5em;
     margin-bottom: 4vw;
 }
 
@@ -26,7 +29,7 @@ h1 {
 
 h2 {
     font-family: 'Permanent Marker', cursive;
-    font-size: 2vw;
+    font-size: 2.5em;
     margin-bottom: 4vw;
     text-align: center;
 }
@@ -58,9 +61,10 @@ a:hover {
     -ms-animation: color-change 10s infinite;
     animation: color-change 10s infinite;*/
     color: red;
-    font-size: 4vw;
-    margin-bottom: 80px;
-    margin-top: 20px;
+    font-size: 5em;
+    margin-bottom: 40px;
+    /*margin-top: 20px;*/
+    padding: 20px;
 }
 
 /*@-webkit-keyframes color-change {
@@ -118,8 +122,8 @@ th, td {
 th {
   text-align: left;
   font-family: 'Permanent Marker', cursive;
-  font-size: 2.2vw;
-  padding-bottom: 2vw;
+  font-size: 2em;
+  padding-bottom: 1em;
   font-weight: bold;
 }
 
