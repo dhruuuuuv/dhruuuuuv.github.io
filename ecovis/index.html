@@ -439,6 +439,10 @@
               d3.select(this)
              .attr("fill", "red");
           })
+          .on("mouseout", function(d) {
+              d3.select(this)
+             .attr("fill", "black");
+          })
           .on("click", function(d) {
               switch (d) {
                   case "Columbia":
