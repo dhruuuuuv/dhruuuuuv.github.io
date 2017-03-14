@@ -12,23 +12,23 @@ body {
     padding: 20px;
     padding-left: 40px;
     padding-right: 40px;
-  font-family: "Open Sans";
+  font-family: 'Helvetica';
 }
 
 h1 {
-    font-family: 'Permanent Marker', cursive;
+    fontHelvetica'', cursive;
     font-size: 3.5em;
     margin-bottom: 4vw;
 }
 
 .typedelem {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Helvetica';
     font-size: 3.5vw;
     margin-bottom: 4vw;
 }
 
 h2 {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Helvetica';
     font-size: 2.5em;
     margin-bottom: 4vw;
     text-align: center;
@@ -54,7 +54,7 @@ a:hover {
 }
 
 .name {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Helvetica';
     /*-webkit-animation: color-change 10s infinite;
     -moz-animation: color-change 10s infinite;
     -o-animation: color-change 10s infinite;
@@ -108,7 +108,7 @@ table {
   /*word-wrap: break-word;*/
   /*padding: 30px;*/
   /*font-family:*/
-  /*font-family: 'Permanent Marker', cursive;*/
+  /*font-family: 'Helvetica';*/
 }
 
 tr {
@@ -121,7 +121,7 @@ th, td {
 
 th {
   text-align: left;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Helvetica';
   font-size: 2em;
   padding-bottom: 1em;
   font-weight: bold;
@@ -138,7 +138,7 @@ td {
 .back {
   padding: 2vw;
   text-align: center;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Helvetica';
   font-size: 3vw;
   color: black;
 }
