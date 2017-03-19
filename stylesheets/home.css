@@ -48,7 +48,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: darkred;
+    color: gray;
     -webkit-transition: color 1s;
     -moz-transition:    color 1s;
     -ms-transition:     color 1s;
