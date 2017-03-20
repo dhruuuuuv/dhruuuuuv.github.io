@@ -211,7 +211,6 @@ td {
   color: black;
 }
 
-
 .gallery-title
 {
     font-size: 36px;
@@ -255,7 +254,7 @@ td {
 }
 .port-image
 {
-    width: 100%;
+    width: 120%;
 }
 
 .gallery_product
