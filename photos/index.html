@@ -7,6 +7,10 @@
 
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="/stylesheets/home.css">
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Carter+One" rel="stylesheet">
@@ -65,57 +69,313 @@
     </div>
 
 
-    <div class="container">
-       <div class="row">
-       <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <!-- <div class="container"> -->
+       <div class="gallery">
+       <!-- <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12"> -->
            <!-- <h1 class="gallery-title">Gallery</h1> -->
-       </div>
 
-       <!-- <div align="center">
-           <button class="btn btn-default filter-button active" data-filter="all">All</button>
-           <button class="btn btn-default filter-button" data-filter="bristol">bristol</button>
-           <button class="btn btn-default filter-button" data-filter="dorset">dorset</button>
-           <button class="btn btn-default filter-button" data-filter="cph">cph</button>
-           <button class="btn btn-default filter-button" data-filter="irrigation">Irrigation Pipes</button>
-       </div> -->
+       <!-- <div align="center"> -->
+           <button class="btn btn-default filter-button" data-filter="all">all</button>
+           <button class="btn btn-default filter-button" data-filter="nature">nature</button>
+           <button class="btn btn-default filter-button" data-filter="friends">friends</button>
+           <button class="btn btn-default filter-button" data-filter="places">places</button>
+           <button class="btn btn-default filter-button" data-filter="scenes">scenes</button>
+           <button class="btn btn-default filter-button" data-filter="moments">moments</button>
+           <button class="btn btn-default filter-button" data-filter="misc">misc</button>
+           <!-- <button class="btn btn-default filter-button" data-filter="irrigation">Irrigation Pipes</button> -->
+       </div>
+   <!-- </div> -->
+
 
        <br/>
 
 
 
-           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter bristol">
-               <a href="daisies.JPG">
-               <img src="daisies.JPG" class="img-responsive">
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter nature">
+               <a href="daisies.jpg">
+               <img src="daisies.jpg" class="img-responsive">
                </a>
            </div>
 
-           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter dorset">
-               <a href="kite.JPG">
-               <img src="kite.JPG" class="img-responsive">
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter scenes">
+               <a href="kite.jpg">
+               <img src="kite.jpg" class="img-responsive">
                </a>
            </div>
 
-           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter cph">
-               <a href="komorebi.JPG">
-               <img src="komorebi.JPG" class="img-responsive">
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter nature">
+               <a href="komorebi.jpg">
+               <img src="komorebi.jpg" class="img-responsive">
                </a>
            </div>
 
-           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter dorset">
-               <a href="sky.JPG">
-               <img src="sky.JPG" class="img-responsive">
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter nature">
+               <a href="sky.jpg">
+               <img src="sky.jpg" class="img-responsive">
                </a>
            </div>
 
-           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter cph">
-               <a href="leaf.JPG">
-               <img src="leaf.JPG" class="img-responsive">
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter nature">
+               <a href="leaf.jpg">
+               <img src="leaf.jpg" class="img-responsive">
                </a>
            </div>
 
-           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter dorset">
-               <a href="sign.JPG">
-               <img src="sign.JPG" class="img-responsive">
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter misc">
+               <a href="sign.jpg">
+               <img src="sign.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter scenes">
+               <a href="almostsunset.jpg">
+               <img src="almostsunset.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter places">
+               <a href="ashtonmanor.jpg">
+               <img src="ashtonmanor.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter friends">
+               <a href="baa.jpg">
+               <img src="baa.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter misc">
+               <a href="berlin.jpg">
+               <img src="berlin.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter misc">
+               <a href="candles.jpg">
+               <img src="candles.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter friends">
+               <a href="deer.jpg">
+               <img src="deer.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter nature">
+               <a href="downs.jpg">
+               <img src="downs.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter friends">
+               <a href="ducks.jpg">
+               <img src="ducks.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter nature">
+               <a href="flowercontrast.jpg">
+               <img src="flowercontrast.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter scenes">
+               <a href="goats.jpg">
+               <img src="goats.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter nature">
+               <a href="greenblue.jpg">
+               <img src="greenblue.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter nature">
+               <a href="hearttree.jpg">
+               <img src="hearttree.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter nature">
+               <a href="italytrees.jpg">
+               <img src="italytrees.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter nature">
+               <a href="japan.jpg">
+               <img src="japan.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter scenes">
+               <a href="jets.jpg">
+               <img src="jets.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter friends">
+               <a href="ladybird.jpg">
+               <img src="ladybird.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter nature">
+               <a href="leaf.jpg">
+               <img src="leaf.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter nature">
+               <a href="leafy.jpg">
+               <img src="leafy.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter friends">
+               <a href="lhotse.jpg">
+               <img src="lhotse.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter friends">
+               <a href="lotsofducks.jpg">
+               <img src="lotsofducks.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter scenes">
+               <a href="nbro.jpg">
+               <img src="nbro.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter friends">
+               <a href="reflection.jpg">
+               <img src="reflection.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter friends">
+               <a href="rocco.jpg">
+               <img src="rocco.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter scenes">
+               <a href="roma.jpg">
+               <img src="roma.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter moments">
+               <a href="sea.jpg">
+               <img src="sea.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter friends">
+               <a href="seagull.jpg">
+               <img src="seagull.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter scenes">
+               <a href="ship.jpg">
+               <img src="ship.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter scenes">
+               <a href="skyriver.jpg">
+               <img src="skyriver.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter scenes">
+               <a href="snow.jpg">
+               <img src="snow.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter scenes">
+               <a href="snowinsidetree.jpg">
+               <img src="snowinsidetree.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter scenes">
+               <a href="spade.jpg">
+               <img src="spade.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter friends">
+               <a href="spiralshoes.jpg">
+               <img src="spiralshoes.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter scenes">
+               <a href="sunset.jpg">
+               <img src="sunset.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter scenes">
+               <a href="sunsetflowers.jpg">
+               <img src="sunsetflowers.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter nature">
+               <a href="treesfrombelow.jpg">
+               <img src="treesfrombelow.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter nature">
+               <a href="treeslight.jpg">
+               <img src="treeslight.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter nature">
+               <a href="twisttree.jpg">
+               <img src="twisttree.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter scenes">
+               <a href="veg.jpg">
+               <img src="veg.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter scenes">
+               <a href="viewpointdowns.jpg">
+               <img src="viewpointdowns.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter friends">
+               <a href="watermelon.jpg">
+               <img src="watermelon.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter moments">
+               <a href="web.jpg">
+               <img src="web.jpg" class="img-responsive">
+               </a>
+           </div>
+
+           <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter nature">
+               <a href="windchime.jpg">
+               <img src="windchime.jpg" class="img-responsive">
                </a>
            </div>
 

@@ -219,6 +219,12 @@ td {
     font-weight: 500;
     margin-bottom: 70px;
 }
+
+.gallery
+{
+    padding-left: 280px;
+}
+
 .gallery-title:after {
     content: "";
     position: absolute;
@@ -227,29 +233,30 @@ td {
     height: 45px;
     border-bottom: 1px solid #5e5e5e;
 }
-.filter-button
+
+.btn-default
 {
     font-size: 18px;
-    border: 1px solid #42B32F;
+    border: 1px solid red;
     border-radius: 5px;
     text-align: center;
-    color: #42B32F;
+    color: red;
     margin-bottom: 30px;
 
 }
-.filter-button:hover
+.btn-default:hover
 {
     font-size: 18px;
-    border: 1px solid #42B32F;
+    border: 1px solid red;
     border-radius: 5px;
     text-align: center;
     color: #ffffff;
-    background-color: #42B32F;
+    background-color: red;
 
 }
-.filter-button.active
+.btn-default.active
 {
-    background-color: #42B32F;
+    background-color: red;
     color: white;
 }
 .port-image
