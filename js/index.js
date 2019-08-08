@@ -1,9 +1,3 @@
-// function toggleDiv (id) {
-//   var div = document.getElementById(id);
-//   div.style.display = div.style.display == "none" ? "block" : "none";
-//   return false;
-// }
-
 var target = document.getElementById('target');
 var personas = [
   'plant lover',
